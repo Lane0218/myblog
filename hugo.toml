@@ -1,29 +1,24 @@
-baseURL = 'https://maverick.canhtran.me'
-languageCode = 'en-us'
-title = 'Maverick'
+baseURL = 'https://www.laneljc.cn/'
+languageCode = 'zh-CN'
+title = "Lane's blog"
 theme = 'maverick'
 
 [permalinks]
   pages = "/:slug"
 
 [params]
-  logo = '/assets/favicon.ico'
+  logo = "https://laneljc-1321736255.cos.ap-nanjing.myqcloud.com/pic/%25E5%25A4%25B4%25E5%2583%258F3.png"
   description = "A minimal hugo theme focus on content"
-  author = 'Calvin Tran'
+  author = 'Lane'
   items = 10
 
   [params.comments]
     enabled = true
-    githubRepo = 'canhtran/maverick'
+    githubRepo = 'Lane0218/myblog'
     theme = 'github-light'
 
 
 [menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = "-110"
   [[menu.main]]
     identifier = "posts"
     name = "Post"
